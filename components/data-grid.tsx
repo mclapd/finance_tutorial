@@ -1,6 +1,6 @@
 "use client";
 
-import { useGetSummary } from "@/features/transactions/summary/api/use-get-summary";
+import { useGetSummary } from "@/features/summary/api/use-get-summary";
 import { formatDateRange } from "@/lib/utils";
 import { useSearchParams } from "next/navigation";
 import { FaPiggyBank } from "react-icons/fa";

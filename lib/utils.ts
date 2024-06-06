@@ -22,8 +22,7 @@ export function formatCurrency(value: number) {
 }
 
 export function calculatePercentageChange(current: number, previous: number) {
-  // TODO: handle the case when previous is null
-  if (previous === 0 || previous === null) {
+  if (previous === 0) {
     return previous === current ? 0 : 100;
   }
 
